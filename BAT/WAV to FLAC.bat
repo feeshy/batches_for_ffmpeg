@@ -1,4 +1,4 @@
 @echo off
 for %%I IN ("*.wav") DO ffmpeg -i "%%I" "%%~nI".flac
-echo 已全部转换为FLAC
+echo 宸插叏閮ㄨ浆鎹负FLAC
 pause
