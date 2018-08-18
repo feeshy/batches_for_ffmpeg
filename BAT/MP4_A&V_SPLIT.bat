@@ -1,7 +1,7 @@
 @echo off
 for %%I IN ("*.mp4") DO ffmpeg -i "%%I" -vn -c copy "%%~nI".m4a
-echo ÒôÆµÌáÈ¡Íê³É£¡
+echo éŸ³é¢‘æå–å®Œæˆï¼
 pause
 for %%I IN ("*.mp4") DO ffmpeg -i "%%I" -an -c copy "%%~nI_mute".mp4
-echo ÊÓÆµÌáÈ¡Íê³É£¡
+echo è§†é¢‘æå–å®Œæˆï¼
 pause
